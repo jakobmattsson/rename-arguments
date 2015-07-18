@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '0.10'
+- '0.12'
+sudo: false
+deploy:
+  provider: npm
+  email: jakob.mattsson@gmail.com
+  skip_cleanup: true
+  api_key:
+    secure: KiNT6RKzD5rqMh2gUiWtU1lpeXZ/xNneZ4gBsD1z+w64EnKL8nLTqvgk6eNlZ6fNSD2hhB/vB26ZL/SB3PVBD5av5wcoCMI4cbHOw15s4y8iOL/yHNMF05TJ6lhn7wZ1UIP3kmltm4vNoZ5RbksKj3ALkSYq1uacSFUJf0/ATUi4Z0t/sW67VCKzwwWsK8xdigNb2wEcmjxbMHrr0Fd6ce1JUCu1JUfC02BkhIYAy2Pq3gduL8YaIPFGG6y0vpMgUikseOTk9g30TQvalkB1154YH+cv8Xi4VuOHSRRoTLiDGKH+PqXJ9myvvo6Zxm41/B25B6DCGnl161Vz16CFcFbGvPX0CNByWO+drTB9s9cdKxnlD+V8geQFUKC8NV1RFlrVFV8/62yERVbRZzbcOBLjwSZzHOIK+BrdZ+4Id+edgW0VRAGaRbmvM6hSCV+TMgE/Q2uEbkizPy+WGRTThNgM9hC5yi6yHdpdJ4A4GgM6WXZvG1klet9ccS8SNVmNlbOOvGYOsxH7WX5VJuJCd8BxH/i4N4Ii1nhhZIeYiCK9tuc9dIbhKPq6G/SRyvNiJg7wt4GE8fx8aNPufa/uN0DLFRARJrpNFB13HmdWOt/SFrxiX87RjwzeEuIBZshGmt2TwI6ULR0f5Y9zcBYEf/1WiRQzGrXrvbk5CGC+uy4=
+  on:
+    tags: true
+    branch: master
+    repo: jakobmattsson/rename-arguments

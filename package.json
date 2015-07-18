@@ -1,0 +1,20 @@
+{
+  "name": "rename-arguments",
+  "description": "Function for renaming the arguments of other functions - highly experimental",
+  "version": "0.1.0",
+  "main": "./src/renameArguments.js",
+  "author": "Jakob Mattsson <jakob.mattsson@gmail.com> (jakobmattsson.se)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jakobmattsson/rename-arguments.git"
+  },  
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "engines": {
+    "node": ">= 0.8"
+  },
+  "scripts": {
+    "test": "node tests/tests.js"
+  }
+}
